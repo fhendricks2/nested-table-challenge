@@ -4,6 +4,8 @@
     <title>Nested Tables</title>
   </head>
   <body>
+
+    <!-- manipulated table -->
     <table width="300" height="300" border="1">
       <tbody>
         <tr>
@@ -45,6 +47,40 @@
           </td>
         </tr>
       </tbody>
+    </table>
 
+    <!-- nested table -->
+    <table width="200" height="200" border="1">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>
+          <table width="150" height="150" border="1">
+            <tr>
+              <td>
+                <table width="100" height="100" border="1">
+                  <tr>
+                    <td>4</td>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>8</td>
+                  </tr>
+                </table>
+              </td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>10</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
